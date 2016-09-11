@@ -24,7 +24,7 @@
               </div>
 
               <div class="col-md-3">
-                <%= f.input :location, as: :select, collection: Resort.all, include_blank: 'Mountain', label: false %>
+                <%= f.input :location, as: :select, collection: Resort.all, include_blank: 'Location', label: false %>
               </div>
 
               <%= f.semantic_fields_for :lesson_time, @lesson_time do |lt_f| %>
